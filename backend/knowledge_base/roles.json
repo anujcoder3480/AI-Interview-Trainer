@@ -1,0 +1,122 @@
+[
+  {
+    "id": "role_001",
+    "category": "role-specific",
+    "topic": "software-engineer",
+    "content": "Software Engineer interview focus areas: data structures and algorithms (arrays, trees, graphs, DP), system design (scalability, databases, caching), coding proficiency in at least one language (Python, Java, C++), OOP principles, REST API design, testing practices. Expect 1-2 LeetCode-style coding rounds, a system design round (for senior roles), and behavioral rounds. Preparation tip: solve 50-100 LeetCode problems across difficulty levels."
+  },
+  {
+    "id": "role_002",
+    "category": "role-specific",
+    "topic": "software-engineer-fresher",
+    "content": "For fresher software engineer roles, interviewers focus on: fundamentals (DS&A, OOP, OS, DBMS, networking), projects (academic or personal), coding ability in preferred language, problem-solving approach, and communication. Show enthusiasm for learning. Prepare a strong 2-minute intro about your projects. Know your resume projects deeply — expect drill-down questions on every line."
+  },
+  {
+    "id": "role_003",
+    "category": "role-specific",
+    "topic": "data-scientist",
+    "content": "Data Scientist interview focus: statistics (probability, distributions, hypothesis testing, p-values), machine learning (supervised/unsupervised, model selection, evaluation metrics), feature engineering, SQL for data extraction, Python (pandas, scikit-learn, matplotlib), experiment design (A/B testing), and communication of insights to non-technical stakeholders. Case studies and take-home assignments are common."
+  },
+  {
+    "id": "role_004",
+    "category": "role-specific",
+    "topic": "data-scientist-fresher",
+    "content": "For fresher data scientist roles: focus on ML fundamentals, statistics, Python (pandas, numpy, scikit-learn), SQL proficiency, and at least one end-to-end project (Kaggle competition, research project, or internship work). Be ready to explain your model choices, evaluation metrics, and what you would do differently. Visualisation and storytelling skills are equally important."
+  },
+  {
+    "id": "role_005",
+    "category": "role-specific",
+    "topic": "product-manager",
+    "content": "Product Manager interview focus: product sense (how do you improve product X?), analytical skills (metrics, A/B testing), prioritization frameworks (RICE, MoSCoW), user empathy, cross-functional leadership, execution, and go-to-market thinking. Common question types: product design, product improvement, root cause analysis, estimation, and behavioral. Know the product of the company you are interviewing with deeply."
+  },
+  {
+    "id": "role_006",
+    "category": "role-specific",
+    "topic": "frontend-developer",
+    "content": "Frontend Developer interview focus: HTML/CSS fundamentals (box model, flexbox, grid), JavaScript (closures, promises, async/await, event loop), React or Vue.js (state management, lifecycle, hooks), accessibility (WCAG), performance optimization (lazy loading, code splitting, bundle size), and browser developer tools. Expect a live coding or take-home UI assignment. Portfolio projects are critical."
+  },
+  {
+    "id": "role_007",
+    "category": "role-specific",
+    "topic": "backend-developer",
+    "content": "Backend Developer interview focus: REST and GraphQL API design, databases (SQL and NoSQL), authentication and authorization (JWT, OAuth), caching strategies (Redis), message queues, microservices architecture, containerization (Docker), and performance tuning. Strong candidates understand the full request lifecycle, can design scalable APIs, and write clean, testable code."
+  },
+  {
+    "id": "role_008",
+    "category": "role-specific",
+    "topic": "full-stack-developer",
+    "content": "Full Stack Developer interview covers both frontend and backend skills. Key areas: React or Angular for UI, Node.js or Python/Django for server, SQL/NoSQL databases, REST API design, authentication, deployment (cloud basics, CI/CD), and version control. Showcase end-to-end projects where you built both the UI and the API. Depth in one area (front or back) plus working knowledge of the other is acceptable."
+  },
+  {
+    "id": "role_009",
+    "category": "role-specific",
+    "topic": "devops-engineer",
+    "content": "DevOps Engineer interview focus: CI/CD pipelines (GitHub Actions, Jenkins, GitLab CI), containerization (Docker, Kubernetes), infrastructure as code (Terraform, Ansible), cloud platforms (AWS, GCP, Azure), monitoring and alerting (Prometheus, Grafana, ELK stack), Linux system administration, scripting (Bash, Python), and networking fundamentals. Focus on automation and reliability."
+  },
+  {
+    "id": "role_010",
+    "category": "role-specific",
+    "topic": "machine-learning-engineer",
+    "content": "ML Engineer interview bridges data science and software engineering. Focus areas: ML model deployment (REST APIs, model serving, batch vs real-time inference), MLOps (experiment tracking with MLflow, model versioning, CI/CD for ML), data pipelines, Python (PyTorch or TensorFlow), distributed training basics, and performance optimization (model quantization, pruning). Expect system design questions specific to ML systems."
+  },
+  {
+    "id": "role_011",
+    "category": "role-specific",
+    "topic": "python-skills",
+    "content": "Python-specific interview topics: list comprehensions, generators and iterators, decorators, context managers, lambda functions, *args and **kwargs, mutable vs immutable types, GIL and threading, virtual environments, pip and package management, PEP 8 style, unit testing with pytest. Familiarity with popular libraries: NumPy, Pandas, FastAPI, Flask, SQLAlchemy, Requests."
+  },
+  {
+    "id": "role_012",
+    "category": "role-specific",
+    "topic": "javascript-skills",
+    "content": "JavaScript interview topics: var/let/const differences, closures, prototype chain, this keyword, event loop and call stack, promises and async/await, ES6+ features (arrow functions, destructuring, spread, template literals), modules (import/export), DOM manipulation, fetch API, error handling. Frameworks: React (hooks, state, props, context), Node.js (event-driven, non-blocking I/O)."
+  },
+  {
+    "id": "role_013",
+    "category": "role-specific",
+    "topic": "java-skills",
+    "content": "Java interview topics: OOP (inheritance, polymorphism, interfaces, abstract classes), Collections framework (ArrayList, HashMap, HashSet, TreeMap), generics, exception handling, multithreading (Runnable, Thread, synchronized, ExecutorService), Java 8+ features (streams, lambdas, Optional), JVM memory model (heap, stack, garbage collection), Spring Boot basics for backend roles."
+  },
+  {
+    "id": "role_014",
+    "category": "role-specific",
+    "topic": "sql-skills",
+    "content": "SQL interview topics: SELECT with WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. JOINs: INNER, LEFT, RIGHT, FULL OUTER, CROSS. Subqueries and correlated subqueries. Window functions: ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, SUM OVER, AVG OVER. CTEs (WITH clause). Indexes and query optimization. NULL handling (IS NULL, COALESCE, NULLIF). Aggregate functions: COUNT, SUM, AVG, MIN, MAX."
+  },
+  {
+    "id": "role_015",
+    "category": "role-specific",
+    "topic": "cybersecurity-analyst",
+    "content": "Cybersecurity Analyst interview focus: OWASP Top 10 vulnerabilities, network security (firewalls, IDS/IPS, VPN), CIA triad (Confidentiality, Integrity, Availability), incident response lifecycle, penetration testing basics, SIEM tools (Splunk), common attack types (phishing, ransomware, SQL injection, MitM), security frameworks (NIST, ISO 27001), and log analysis."
+  },
+  {
+    "id": "role_016",
+    "category": "role-specific",
+    "topic": "cloud-architect",
+    "content": "Cloud Architect interview focus: multi-cloud vs hybrid strategies, well-architected framework pillars (operational excellence, security, reliability, performance efficiency, cost optimization), network design (VPC, subnets, security groups), disaster recovery (RTO, RPO), serverless architectures, cost optimization strategies, and migration strategies (lift-and-shift vs re-architect)."
+  },
+  {
+    "id": "role_017",
+    "category": "role-specific",
+    "topic": "qa-engineer",
+    "content": "QA Engineer interview focus: testing types (unit, integration, system, regression, UAT), test case design (boundary value analysis, equivalence partitioning), bug lifecycle, automation tools (Selenium, Cypress, Playwright, pytest), API testing (Postman, REST Assured), performance testing (JMeter), and CI/CD integration. Show structured thinking: how do you test a login page end-to-end?"
+  },
+  {
+    "id": "role_018",
+    "category": "role-specific",
+    "topic": "data-engineer",
+    "content": "Data Engineer interview focus: data pipeline design (ETL/ELT), batch vs streaming (Apache Spark, Kafka), data warehouse concepts (star schema, snowflake schema, OLAP vs OLTP), SQL proficiency, Python for data processing, cloud data services (BigQuery, Redshift, Databricks), data quality and lineage, and orchestration tools (Airflow, Prefect). Show experience building reliable, scalable pipelines."
+  },
+  {
+    "id": "role_019",
+    "category": "role-specific",
+    "topic": "business-analyst",
+    "content": "Business Analyst interview focus: requirements gathering (stakeholder interviews, workshops, user stories), process modeling (BPMN, flowcharts), gap analysis, use case documentation, data analysis (Excel, SQL, Tableau), agile methodology (user stories, acceptance criteria, sprint planning), and communication between business and technical teams. Show structured problem-solving and documentation skills."
+  },
+  {
+    "id": "role_020",
+    "category": "role-specific",
+    "topic": "general-interview-preparation",
+    "content": "General interview preparation tips: Research the company mission, products, and recent news. Review the job description and map your skills to each requirement. Prepare 5-7 STAR stories covering key behavioral themes (leadership, conflict, failure, teamwork, initiative). Practice coding problems on LeetCode or HackerRank. Do mock interviews aloud. Prepare questions to ask the interviewer. Test your audio/video setup for virtual interviews."
+  }
+]

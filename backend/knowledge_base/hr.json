@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hr_001",
+    "category": "hr",
+    "topic": "tell-me-about-yourself",
+    "content": "This opening question sets the tone. Structure: Present (current role/study and key skills), Past (relevant experience that led here), Future (why this role and company). Keep it to 90 seconds. Do NOT read your resume chronologically. Tailor it to the job description. End by connecting your background to what the interviewer is looking for."
+  },
+  {
+    "id": "hr_002",
+    "category": "hr",
+    "topic": "strengths",
+    "content": "Strengths question: 'What are your greatest strengths?' Choose 2-3 strengths directly relevant to the job. Back each one with a brief specific example. Avoid generic answers like 'hardworking' or 'team player' without evidence. Strong example: 'I am good at breaking down ambiguous problems — in my last project I...' Link strengths to the value you will bring to the company."
+  },
+  {
+    "id": "hr_003",
+    "category": "hr",
+    "topic": "weaknesses",
+    "content": "Weaknesses question: 'What is your greatest weakness?' Choose a genuine area of improvement that is not a core requirement of the role. Show self-awareness and the concrete steps you are taking to improve. Avoid clichés like 'I am a perfectionist.' Strong example: 'I used to struggle with public speaking, so I joined a Toastmasters group and have since presented at two company all-hands meetings.'"
+  },
+  {
+    "id": "hr_004",
+    "category": "hr",
+    "topic": "why-this-company",
+    "content": "'Why do you want to work here?' Research the company before the interview: products, mission, culture, recent news. Connect their mission to your personal values or career goals. Show genuine enthusiasm — generic answers are easy to spot. Mention something specific: a product feature you admire, a technology they use, or a value statement that resonates with you."
+  },
+  {
+    "id": "hr_005",
+    "category": "hr",
+    "topic": "why-this-role",
+    "content": "'Why are you applying for this specific role?' Map the job description requirements to your skills and experience. Explain how this role is a logical next step in your career. Show that you have read the job description carefully. Highlight 2-3 requirements you are particularly strong in and why they excite you."
+  },
+  {
+    "id": "hr_006",
+    "category": "hr",
+    "topic": "career-goals",
+    "content": "'Where do you see yourself in 5 years?' Show ambition balanced with realism. Align your long-term goals with what this role and company can offer. Avoid 'your job' jokes. For freshers, a good answer: 'I want to build deep expertise in [domain], take on increasing responsibility, and eventually lead projects or mentor juniors.' Show commitment, not just a stepping stone mindset."
+  },
+  {
+    "id": "hr_007",
+    "category": "hr",
+    "topic": "salary-negotiation",
+    "content": "Salary questions: 'What are your salary expectations?' Research the market range for the role, location, and experience level (Glassdoor, LinkedIn Salary, AmbitionBox). Give a range rather than a fixed number. Anchor slightly above your minimum. For freshers, it is acceptable to say 'I am open to a competitive offer aligned with the role's responsibilities and industry standards.' Never be the first to anchor if you can avoid it."
+  },
+  {
+    "id": "hr_008",
+    "category": "hr",
+    "topic": "notice-period-and-availability",
+    "content": "'When can you start?' Be honest. If you have a notice period, state it clearly. If you can negotiate a shorter notice, mention it. Freshers typically can start immediately or within a week. Show flexibility where possible without over-committing. Interviewers want certainty, so avoid vague answers like 'soon' or 'whenever you need.'"
+  },
+  {
+    "id": "hr_009",
+    "category": "hr",
+    "topic": "relocation-and-remote-work",
+    "content": "'Are you open to relocation?' or 'Are you comfortable with a hybrid/on-site role?' Be honest about your constraints. If open to relocation, say so clearly and mention any timeline. If you have constraints, acknowledge them while showing flexibility or asking what the role requires. Do not misrepresent your availability — it leads to issues post-offer."
+  },
+  {
+    "id": "hr_010",
+    "category": "hr",
+    "topic": "why-leaving-current-job",
+    "content": "'Why are you leaving your current job?' Stay positive — never badmouth a previous employer or manager. Focus on what you are moving towards, not what you are fleeing. Good reasons: seeking growth, new challenge, specific skills this role offers, company culture alignment. Avoid: 'my manager was terrible', 'the work was boring', or any negativity that reflects poorly on your professionalism."
+  },
+  {
+    "id": "hr_011",
+    "category": "hr",
+    "topic": "questions-to-ask-interviewer",
+    "content": "Always prepare 2-3 questions to ask the interviewer. Good questions: 'What does success look like in this role in the first 90 days?', 'What are the biggest challenges the team is currently facing?', 'How would you describe the engineering/team culture here?', 'What opportunities exist for learning and growth?'. Avoid asking about salary or benefits in the first round."
+  },
+  {
+    "id": "hr_012",
+    "category": "hr",
+    "topic": "culture-fit",
+    "content": "Culture fit questions assess values alignment. Research the company's stated values and reflect on genuine examples from your experience that demonstrate those values. Common culture values: ownership, customer obsession, innovation, collaboration, continuous learning. Authentic answers resonate better than rehearsed ones. Interviewers can detect misalignment easily."
+  },
+  {
+    "id": "hr_013",
+    "category": "hr",
+    "topic": "work-style-and-preferences",
+    "content": "'Do you prefer working independently or in a team?' The ideal answer shows adaptability: you can work effectively in both modes. Describe your natural preference honestly, then give an example of succeeding in the other mode too. Showing range makes you a stronger candidate than someone who can only function in one style."
+  },
+  {
+    "id": "hr_014",
+    "category": "hr",
+    "topic": "handling-ambiguity",
+    "content": "'How do you handle situations where requirements are unclear?' This is critical in fast-moving environments. Strong answers show that you: ask clarifying questions upfront, make reasonable assumptions and document them, deliver iteratively and seek feedback early, and escalate blockers rather than getting stuck silently. Avoid saying you wait for someone to give you all the answers."
+  },
+  {
+    "id": "hr_015",
+    "category": "hr",
+    "topic": "motivation-and-passion",
+    "content": "'What motivates you?' or 'Why did you choose this field?' Be genuine. Common motivators: solving real-world problems with technology, continuous learning, creating impact, working with smart people. Tie your motivation to the role and company. Passion is credible when backed by concrete actions: personal projects, open-source contributions, certifications, or learning outside of work."
+  }
+]

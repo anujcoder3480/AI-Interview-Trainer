@@ -1,0 +1,13 @@
+[Startup] Loading RAG knowledge base into ChromaDB...
+[RAG] Loaded 70 chunks into ChromaDB.
+[Startup] Knowledge base ready.
+INFO:     127.0.0.1:62849 - "GET /docs%E2%81%A0 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62849 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64448 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64448 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56893 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "POST /api/start HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50280 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50280 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51563 - "GET /static/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52162 - "POST /api/start HTTP/1.1" 500 Internal Server Error

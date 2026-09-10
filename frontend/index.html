@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Interview Trainer — Setup</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">🎯 AI Interview Trainer</span>
+  <span class="subtitle">Powered by IBM Granite · RAG · Agentic AI</span>
+</header>
+
+<div class="page-wrapper">
+
+  <div class="card">
+    <h2>Start Your Mock Interview</h2>
+    <p style="color:#57606a;font-size:14px;margin-bottom:20px;">
+      Fill in your profile below. Our AI agents will generate personalised questions,
+      evaluate your answers, and produce a scored report.
+    </p>
+
+    <div id="error-alert" class="alert alert-error"></div>
+
+    <form id="setup-form" novalidate>
+
+      <label for="role">Job Role <span style="color:#dc2626">*</span></label>
+      <input type="text" id="role" name="role" placeholder="e.g. Software Engineer, Data Scientist, Product Manager" required />
+
+      <label for="experience">Experience Level <span style="color:#dc2626">*</span></label>
+      <select id="experience" name="experience" required>
+        <option value="">— Select —</option>
+        <option value="Fresher (0 years)">Fresher (0 years)</option>
+        <option value="1-3 years">1–3 years</option>
+        <option value="3-5 years">3–5 years</option>
+        <option value="5+ years">5+ years</option>
+      </select>
+
+      <label for="skills">Key Skills <span style="color:#9ca3af;font-weight:400">(comma-separated)</span></label>
+      <input type="text" id="skills" name="skills" placeholder="e.g. Python, SQL, Machine Learning, React" />
+
+      <label>Question Types</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="types" value="technical" checked /> Technical</label>
+        <label><input type="checkbox" name="types" value="behavioral" checked /> Behavioral</label>
+        <label><input type="checkbox" name="types" value="hr" checked /> HR</label>
+      </div>
+
+      <label for="num-questions">Number of Questions: <strong id="num-display">7</strong></label>
+      <input type="range" id="num-questions" name="num_questions" min="3" max="10" value="7"
+             oninput="document.getElementById('num-display').textContent = this.value" />
+      <div class="range-labels"><span>3</span><span>10</span></div>
+
+      <div style="margin-top:28px;">
+        <button type="submit" class="btn btn-primary btn-lg btn-full" id="start-btn">
+          Start Interview
+        </button>
+      </div>
+
+    </form>
+  </div>
+
+  <div class="card" style="background:#f7f8fa;">
+    <h3>How it works</h3>
+    <ol style="padding-left:20px;font-size:14px;color:#374151;line-height:2;">
+      <li><strong>Question Generation Agent</strong> uses your profile + RAG knowledge base to create personalised questions via IBM Granite.</li>
+      <li><strong>Answer Evaluation Agent</strong> scores each answer (1–10) and gives specific improvement suggestions.</li>
+      <li><strong>Interview Orchestrator Agent</strong> manages the session and assembles your final scored report.</li>
+    </ol>
+  </div>
+
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

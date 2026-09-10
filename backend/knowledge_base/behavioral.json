@@ -1,0 +1,92 @@
+[
+  {
+    "id": "beh_001",
+    "category": "behavioral",
+    "topic": "STAR-method",
+    "content": "The STAR method structures behavioral answers: Situation (set the context), Task (describe your responsibility), Action (explain what YOU specifically did, using 'I' not 'we'), Result (quantify the outcome with metrics if possible). Interviewers use behavioral questions to predict future behavior from past experience. Keep answers concise — 2 to 3 minutes maximum."
+  },
+  {
+    "id": "beh_002",
+    "category": "behavioral",
+    "topic": "teamwork",
+    "content": "Teamwork questions: 'Tell me about a time you worked on a team project.' Strong answers show clear role ownership, proactive communication, conflict resolution, and shared accountability. Mention how you contributed specifically, not just what the team did. Highlight listening skills and adapting to different working styles. Show that you can both lead and follow."
+  },
+  {
+    "id": "beh_003",
+    "category": "behavioral",
+    "topic": "leadership",
+    "content": "Leadership questions: 'Describe a time you led a project or team.' You do not need a formal title to show leadership. Leadership includes initiating action, motivating others, making decisions under ambiguity, and taking ownership of outcomes. Use STAR format. Quantify impact: 'reduced delivery time by 20%' is stronger than 'improved the process'."
+  },
+  {
+    "id": "beh_004",
+    "category": "behavioral",
+    "topic": "conflict-resolution",
+    "content": "Conflict questions: 'Tell me about a time you disagreed with a colleague or manager.' Show emotional intelligence: acknowledge the other perspective, describe how you sought common ground, and explain the outcome. Avoid blaming others. Focus on the process of resolution, not on being right. Interviewers want to see that you handle disagreements professionally and constructively."
+  },
+  {
+    "id": "beh_005",
+    "category": "behavioral",
+    "topic": "failure-and-learning",
+    "content": "Failure questions: 'Tell me about a mistake you made.' Choose a real, meaningful example — not 'I work too hard.' Show self-awareness: what went wrong, what was your role in it. Focus most of the answer on what you learned and what you changed afterward. Demonstrate growth. Interviewers are assessing humility, accountability, and resilience, not perfection."
+  },
+  {
+    "id": "beh_006",
+    "category": "behavioral",
+    "topic": "problem-solving",
+    "content": "Problem-solving questions: 'Describe a complex problem you solved.' Show a structured approach: how you broke the problem down, gathered information, considered alternatives, and chose a solution. Mention constraints (time, resources, ambiguity). Highlight collaboration if relevant. End with the measurable result. Interviewers want analytical thinking and methodical execution."
+  },
+  {
+    "id": "beh_007",
+    "category": "behavioral",
+    "topic": "time-management",
+    "content": "Time management questions: 'How do you handle competing priorities or tight deadlines?' Show that you prioritize by impact and urgency (Eisenhower matrix). Describe a specific situation: list what was competing, how you decided what to do first, what tools or strategies you used (task lists, time-blocking), and the outcome. Avoid saying 'I just work harder'."
+  },
+  {
+    "id": "beh_008",
+    "category": "behavioral",
+    "topic": "adaptability",
+    "content": "Adaptability questions: 'Tell me about a time you had to adapt to a significant change.' Changes can be technology shifts, team restructuring, new requirements, or pivots. Show that you embrace change rather than resist it. Describe your initial reaction honestly, then focus on the concrete steps you took to adapt. Strong answers include a positive business outcome."
+  },
+  {
+    "id": "beh_009",
+    "category": "behavioral",
+    "topic": "initiative",
+    "content": "Initiative questions: 'Give an example of when you went above and beyond.' Think of times you identified a gap or opportunity without being asked and took action. Could be automating a manual process, proposing a new feature, or helping a struggling teammate. Quantify the impact. Shows ownership mindset, a key trait in high-performing candidates."
+  },
+  {
+    "id": "beh_010",
+    "category": "behavioral",
+    "topic": "communication",
+    "content": "Communication questions: 'Describe a time you had to explain a complex topic to a non-technical audience.' Show that you can tailor your message to the audience. Analogies and visuals are effective tools. Mention how you confirmed understanding (questions, feedback, follow-up). Strong communicators actively listen, adjust their style, and confirm alignment."
+  },
+  {
+    "id": "beh_011",
+    "category": "behavioral",
+    "topic": "pressure-and-stress",
+    "content": "Stress questions: 'How do you handle working under pressure?' Give a specific example. Show that you stay calm, break the problem into manageable steps, communicate status to stakeholders, and deliver. Mention any coping strategies like prioritization frameworks. Avoid claiming you never feel stressed — that lacks credibility. Show resilience through concrete action."
+  },
+  {
+    "id": "beh_012",
+    "category": "behavioral",
+    "topic": "collaboration-with-cross-functional-teams",
+    "content": "Cross-functional collaboration questions: 'Tell me about working with people from different departments.' Highlight understanding different team goals and priorities. Show how you built rapport, found common language (especially technical vs non-technical), aligned on shared objectives, and delivered together. Mention any challenges like differing timelines or tools."
+  },
+  {
+    "id": "beh_013",
+    "category": "behavioral",
+    "topic": "feedback",
+    "content": "Feedback questions: 'How do you respond to constructive criticism?' Show that you welcome feedback rather than defending your work. Describe a specific instance: who gave the feedback, what it was, how you received it, and what you changed. Distinguish between actionable feedback (change your approach) and feedback you respectfully disagreed with and why."
+  },
+  {
+    "id": "beh_014",
+    "category": "behavioral",
+    "topic": "goal-setting",
+    "content": "Goal questions: 'Tell me about a goal you set and how you achieved it.' Use SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) as a structure. Show how you planned milestones, tracked progress, overcame obstacles, and ultimately delivered. Strong answers demonstrate discipline, self-management, and a results-driven mindset."
+  },
+  {
+    "id": "beh_015",
+    "category": "behavioral",
+    "topic": "mentoring-and-helping-others",
+    "content": "Mentoring questions: 'Have you ever helped a colleague grow or improve?' Describe the situation: who needed help, what you did (pair programming, knowledge sharing, regular check-ins), and what the outcome was. Shows empathy, communication, and investment in team success — valued at all seniority levels, not just managers."
+  }
+]

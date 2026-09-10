@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tech_001",
+    "category": "technical",
+    "topic": "arrays",
+    "content": "Arrays store elements in contiguous memory. Common operations: traversal O(n), access O(1), insertion/deletion O(n). Two-pointer technique solves problems like finding pairs with a target sum in O(n). Sliding window is useful for subarray problems. Always clarify if the array is sorted before choosing an algorithm."
+  },
+  {
+    "id": "tech_002",
+    "category": "technical",
+    "topic": "linked-lists",
+    "content": "Linked lists allow O(1) insertion and deletion at a known node. Use a slow and fast pointer (Floyd's algorithm) to detect cycles. To reverse a linked list, maintain three pointers: prev, curr, next. Common interview patterns: merge two sorted lists, find the middle node, remove Nth node from end."
+  },
+  {
+    "id": "tech_003",
+    "category": "technical",
+    "topic": "trees-and-graphs",
+    "content": "Binary trees: in-order (left-root-right), pre-order, post-order traversals. BFS uses a queue, DFS uses recursion or a stack. Binary Search Tree property: left child < node < right child. Graph representations: adjacency list (sparse) vs adjacency matrix (dense). Topological sort applies to DAGs for task scheduling."
+  },
+  {
+    "id": "tech_004",
+    "category": "technical",
+    "topic": "dynamic-programming",
+    "content": "Dynamic programming solves problems by breaking them into overlapping subproblems. Two approaches: top-down (memoization) and bottom-up (tabulation). Classic problems: Fibonacci, 0/1 Knapsack, Longest Common Subsequence, Longest Increasing Subsequence, Coin Change. Always define the state clearly before coding."
+  },
+  {
+    "id": "tech_005",
+    "category": "technical",
+    "topic": "sorting-algorithms",
+    "content": "Merge sort: O(n log n) time, O(n) space, stable. Quick sort: O(n log n) average, O(n²) worst, in-place. Heap sort: O(n log n), not stable. For nearly sorted data, insertion sort O(n) is optimal. Counting sort O(n+k) works when the value range is small. Always ask whether stability matters."
+  },
+  {
+    "id": "tech_006",
+    "category": "technical",
+    "topic": "hashing",
+    "content": "Hash maps provide O(1) average lookup, insert, and delete. Collision resolution: chaining (linked list per bucket) or open addressing (linear probing). Use hash maps to reduce O(n²) brute-force to O(n). Common patterns: frequency count, two-sum, grouping anagrams, detecting duplicates."
+  },
+  {
+    "id": "tech_007",
+    "category": "technical",
+    "topic": "object-oriented-programming",
+    "content": "OOP pillars: Encapsulation (hiding internal state), Inheritance (code reuse via parent class), Polymorphism (same interface, different behavior), Abstraction (hiding complexity). SOLID principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion. Design patterns: Singleton, Factory, Observer, Strategy."
+  },
+  {
+    "id": "tech_008",
+    "category": "technical",
+    "topic": "databases",
+    "content": "SQL vs NoSQL: SQL is relational, ACID-compliant, good for structured data. NoSQL (MongoDB, Cassandra) is schema-flexible, horizontally scalable. Normalization reduces redundancy (1NF, 2NF, 3NF). Indexes speed up reads but slow writes. Transactions ensure atomicity. JOINs: INNER, LEFT, RIGHT, FULL OUTER. Use EXPLAIN to analyze query performance."
+  },
+  {
+    "id": "tech_009",
+    "category": "technical",
+    "topic": "rest-apis",
+    "content": "REST principles: stateless, client-server, uniform interface. HTTP methods: GET (read), POST (create), PUT (replace), PATCH (update), DELETE. Status codes: 200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Internal Server Error. Use pagination for large responses. Authentication: JWT tokens, OAuth 2.0."
+  },
+  {
+    "id": "tech_010",
+    "category": "technical",
+    "topic": "system-design",
+    "content": "System design steps: clarify requirements, estimate scale, define APIs, design data model, choose architecture (monolith vs microservices), identify bottlenecks. Key concepts: load balancing, caching (Redis, CDN), database sharding, message queues (Kafka, RabbitMQ), CAP theorem (Consistency, Availability, Partition tolerance). Always start with a simple design and scale up."
+  },
+  {
+    "id": "tech_011",
+    "category": "technical",
+    "topic": "concurrency",
+    "content": "Concurrency vs parallelism: concurrency is about dealing with many things at once, parallelism is doing many things at once. Thread safety: use locks (mutex), semaphores, or atomic operations. Deadlock conditions: mutual exclusion, hold and wait, no preemption, circular wait. Python GIL limits CPU-bound threading; use multiprocessing or asyncio for I/O-bound tasks."
+  },
+  {
+    "id": "tech_012",
+    "category": "technical",
+    "topic": "big-o-complexity",
+    "content": "Big-O describes worst-case time and space complexity. Common complexities (best to worst): O(1) constant, O(log n) logarithmic, O(n) linear, O(n log n) linearithmic, O(n²) quadratic, O(2^n) exponential. Space complexity counts extra memory used, not input size. Always analyze both time and space. Amortized analysis applies to dynamic arrays (push is O(1) amortized)."
+  },
+  {
+    "id": "tech_013",
+    "category": "technical",
+    "topic": "recursion",
+    "content": "Recursion requires a base case and a recursive case. Each call uses stack space O(n) for depth n. Tail recursion can be optimized by compilers. Common patterns: divide and conquer (merge sort), tree traversal, backtracking (N-Queens, Sudoku). Convert to iteration when stack depth is a concern. Memoize repeated subproblems."
+  },
+  {
+    "id": "tech_014",
+    "category": "technical",
+    "topic": "cloud-and-devops",
+    "content": "Cloud fundamentals: IaaS (infrastructure), PaaS (platform), SaaS (software). Key services: compute (EC2/VM), storage (S3/Blob), managed databases (RDS). Docker containers package apps with dependencies. Kubernetes orchestrates containers. CI/CD pipelines automate build, test, deploy. Infrastructure as Code (Terraform, Ansible) ensures repeatability."
+  },
+  {
+    "id": "tech_015",
+    "category": "technical",
+    "topic": "machine-learning-basics",
+    "content": "Supervised learning uses labeled data (classification, regression). Unsupervised learning finds patterns (clustering, dimensionality reduction). Train/val/test split avoids overfitting. Metrics: accuracy, precision, recall, F1, AUC-ROC. Overfitting fix: regularization (L1/L2), dropout, more data. Gradient descent minimizes loss by updating weights in the direction of steepest descent."
+  },
+  {
+    "id": "tech_016",
+    "category": "technical",
+    "topic": "networking",
+    "content": "OSI model: Physical, Data Link, Network, Transport, Session, Presentation, Application. TCP is reliable (3-way handshake), UDP is fast but unreliable. DNS translates domain names to IP addresses. HTTP/2 multiplexes requests. HTTPS uses TLS for encryption. Load balancers distribute traffic. Firewalls filter by port/protocol. NAT maps private IPs to public."
+  },
+  {
+    "id": "tech_017",
+    "category": "technical",
+    "topic": "security",
+    "content": "Common vulnerabilities: SQL injection (use parameterized queries), XSS (sanitize input/output), CSRF (use tokens), broken authentication. HTTPS encrypts data in transit. Hash passwords with bcrypt or Argon2 (never MD5/SHA1 alone). Principle of least privilege: grant only required permissions. OWASP Top 10 is the standard reference for web security risks."
+  },
+  {
+    "id": "tech_018",
+    "category": "technical",
+    "topic": "version-control",
+    "content": "Git workflows: feature branch, gitflow, trunk-based development. Key commands: git clone, commit, push, pull, merge, rebase, stash. Rebase rewrites history for a cleaner log; merge preserves history. Pull requests enable code review. Resolve conflicts by editing the conflicting sections and committing. Tags mark release points. Always write descriptive commit messages."
+  },
+  {
+    "id": "tech_019",
+    "category": "technical",
+    "topic": "testing",
+    "content": "Unit tests test individual functions in isolation. Integration tests test interactions between components. End-to-end tests simulate real user flows. Test-driven development writes tests first. Mock external dependencies (APIs, databases) to keep tests fast and isolated. Code coverage measures how much code is tested. Aim for high coverage on critical paths, not 100% blindly."
+  },
+  {
+    "id": "tech_020",
+    "category": "technical",
+    "topic": "data-structures-overview",
+    "content": "Stack: LIFO, used for undo, expression parsing. Queue: FIFO, used for BFS, scheduling. Deque: double-ended queue. Heap/Priority Queue: O(log n) insert and extract-min/max, used in Dijkstra's, scheduling. Trie: prefix tree for string search. Union-Find: disjoint set for connectivity problems. Segment tree: range queries and updates."
+  }
+]
